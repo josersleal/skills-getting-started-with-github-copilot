@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       );
 
+      
       const result = await response.json();
 
       if (response.ok) {
